@@ -29,6 +29,7 @@ public class SlidingWindow {
     Input: nums = [1,2,3,1,2,3], k = 2
     Output: false*/
 
+
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         HashMap<Integer, Integer> map=new HashMap();
         for (int i = 0; i < nums.length; i++) {
