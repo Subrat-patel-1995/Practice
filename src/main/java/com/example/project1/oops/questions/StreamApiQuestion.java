@@ -23,7 +23,7 @@ public class StreamApiQuestion {
                 .collect(Collectors.groupingBy(Map.Entry::getValue, Collectors.counting()))
                 .entrySet().stream()
                 .peek(System.out::println)
-                .filter(e -> e.getValue() > 1)
+                .filter(e -> e.getValue() == 1)
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
         System.out.println(collect);
 
