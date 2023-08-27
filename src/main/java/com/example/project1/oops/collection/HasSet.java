@@ -7,7 +7,9 @@ import java.util.*;
 public class HasSet {
 
     public static void main(String[] args) {
-        HashSet set=new HashSet();
+        List<String> list=new ArrayList<>();
+        list.add("subrat0");
+        HashSet set=new HashSet(list);
         set.add("Subrat");
         set.add("Subrat1");
         set.add("Subrat2");

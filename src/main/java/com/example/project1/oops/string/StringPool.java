@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class StringPool {
     public static void main(String[] args) {
-        longestPalindrome("aabbccbdd");
+//        longestPalindrome("aabbccbdd");
 
     }
     public  static void longestPalindrome(String s) {
@@ -23,4 +23,7 @@ public class StringPool {
 interface A{
     static int a=3;
     void name();
+}
+class B{
+    String name;
 }

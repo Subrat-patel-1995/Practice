@@ -7,8 +7,8 @@ import java.util.Map;
 public class HasMap {
     public static void main(String[] args) {
         var map=new HashMap<Integer,String>();
-        map.put(1,"1");
-        map.put(1,"11");
+        System.out.println(map.put(1,"1111"));
+        System.out.println(map.put(1,"11"));
         map.put(2,"2");
         map.put(3,"3");
         map.put(4,"4");
