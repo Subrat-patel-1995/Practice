@@ -8,7 +8,11 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class StringPool {
+    StringPool(){
+        System.out.println("Constructor is called");
+    }
     public static void main(String[] args) {
+        System.out.println("main method is called");
 //        longestPalindrome("aabbccbdd");
 
     }
